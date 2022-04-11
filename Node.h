@@ -26,10 +26,13 @@ public:
     //getter for estimated dist to goal - need to return -> Manhatten distance + distance traveled
     int getEstimatedDist2Goal(Node* goal);
 
+    
+
     /*                                           */
     /* YOU MAY ADD YOUR MODIFICATIONS HERE       */
     /*                                           */
 
+    bool equals(Node* node);
 
 private:
     /*                                           */

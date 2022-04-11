@@ -19,6 +19,9 @@ public:
     // To be implemented for Milestone 2
     void forwardSearch(Env env);
 
+    
+    
+
     // Get a DEEP COPY of the explored NodeList in forward search
     // To be implemented for Milestone 2
     NodeList* getNodesExplored();
@@ -31,7 +34,11 @@ public:
     /*                                           */
     /* YOU MAY ADD YOUR MODIFICATIONS HERE       */
     /*                                           */
+    
+    bool checkNodeExists(Node* node1, NodeList* nodeList);
 
+    
+    
 private:
     /*                                           */
     /* DO NOT MOFIFY THESE VARIABLES             */
@@ -44,6 +51,7 @@ private:
     /* YOU MAY ADD YOUR MODIFICATIONS HERE       */
     /*                                           */
     
+
 };
 
 
